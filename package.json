@@ -1,0 +1,27 @@
+{
+  "name": "dretch",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "fetch",
+    "request",
+    "http"
+  ],
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  }
+}
