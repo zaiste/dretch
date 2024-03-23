@@ -1,0 +1,5 @@
+{
+  "name": "@zaiste/dretch",
+  "version": "0.3.0",
+  "exports": "./src/mod.ts"
+}
