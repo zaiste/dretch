@@ -21,6 +21,7 @@
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   },
+  "main": "./dist/mod.js",
   "exports": {
     ".": "./dist/mod.js"
   }
