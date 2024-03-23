@@ -7,7 +7,7 @@ export type HTTPMethod =
   | 'OPTIONS'
   | 'DELETE';
 
-export const dretch = (baseURL: string) => (...args: RequestData) => {
+export const dretch = (baseURL: string) => (...args: RequestData): Promise<Response> => {
   const [method, pathname, config] = args
 
   let restConfig = config;
