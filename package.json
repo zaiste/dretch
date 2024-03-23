@@ -2,7 +2,7 @@
   "name": "dretch",
   "version": "0.1.0",
   "type": "module",
-  "description": "",
+  "description": "A small fetch wrapper with a data-driven API",
   "scripts": {
     "build": "tsc"
   },
@@ -15,13 +15,13 @@
     "dist/*.js",
     "dist/*.d.ts"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "zaiste",
+  "license": "Apache-2.0",
   "devDependencies": {
     "tsx": "^4.7.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/mod.js"
   }
 }

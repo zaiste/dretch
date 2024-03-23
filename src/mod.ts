@@ -53,3 +53,5 @@ type RequestDataWithBody = [
 ];
 
 export type RequestData = RequestDataWithoutBody | RequestDataWithBody;
+
+// export const parse = <T = any>(response: Response) => response.json() as Promise<T>;
